@@ -1,0 +1,46 @@
+@font-face {
+    font-family: ElectroluxSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url(/font/electroluxsans_3_regular-webfont.woff) format("woff"),
+      url(/font/ElectroluxSans-Regular.ttf) format("truetype");
+    font-display: swap;
+  }
+* {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    font-family:  ElectroluxSans, sans-serif;
+  } 
+
+.alert{
+    text-align: center;
+
+}
+
+.border{
+    display: flex;
+    justify-content: space-between;
+}
+
+.border__logo{
+    margin-left: 100px; 
+}
+
+.border__menu{
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+
+}
+
+.border__menu-list{
+    padding: 20px;
+    cursor: pointer;
+    color: #011e41;
+    font-weight: 600;
+}
+
